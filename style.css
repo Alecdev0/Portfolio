@@ -82,6 +82,19 @@ header {
   object-fit: cover;
 }
 
+.hero-img {
+  max-width: 350px;
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.hero-img:hover {
+  transform: scale(1.03);
+}
+
 nav {
   max-width: 1100px;
   margin: 0 auto;
