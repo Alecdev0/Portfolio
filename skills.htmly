@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Alec Doctor Msiza - Web Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h2>My Skills</h2>
+     <ul>
+       <li>HTML, CSS, JavaScript</li>
+       <li>React, Node.js</li>
+       <li>Git, GitHub</li>
+    </ul>
+  </header>
+
+  <footer>
+    © 2025 Alec Doctor Msiza. All rights reserved.
+  </footer>
+
+</body>
+</html>
