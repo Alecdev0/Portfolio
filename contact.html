@@ -20,10 +20,22 @@
     <a href="#contact" class="cta">Let’s Talk</a>
   </nav>
 
-  <header>
-    <h1>Contact Me</h1>
-    <p>Email: <a href="mailto:alexismajor312@gmail.com">alexismajor312@gmail.com</a></p>
-  </header>
+<header>
+  <h1>Contact Me</h1>
+  <p>Want to work together? Send me a message!</p>
+  <form action="https://formspree.io/f/your-form-id" method="POST">
+    <label for="name">Name:</label><br />
+    <input type="text" id="name" name="name" required /><br /><br />
+
+    <label for="email">Email:</label><br />
+    <input type="email" id="email" name="email" required /><br /><br />
+
+    <label for="message">Message:</label><br />
+    <textarea id="message" name="message" rows="5" required></textarea><br /><br />
+
+    <button type="submit">Send Message</button>
+  </form>
+</header>
   <footer>
     © 2025 Alec Doctor Msiza. All rights reserved.
   </footer>
